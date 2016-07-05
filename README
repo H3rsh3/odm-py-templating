@@ -1,10 +1,10 @@
-# config_gen4 sctips uses pandas to create a datafrom of devics and config ites to replace a base config files
+# config_gen4 script uses pandas to create a datafrom of devics and config items to replace and create config files. This can be utilized for any form of teplate not just cisco/network
 # once the script is in place, there should not be anything changed in it
 # This scrit requires 2 files and one dir in order for it to work
 file1 = config_base
-	this will be a base config file. this will include all variables in <config_variable>, the string inside <> must the columns in the "config_data" file. Also there can not be duplicate fields
+	this will be a base config file. this will include all variables in format "<config_variable>", the variable must be surrounded by "< >".>string inside <> must match the column in the "config_data" file. there can not be duplicate fields
 	#####################################################################################
-		example "config_base"
+		example "./config_base"
 			!
 			hostname <hostname>
 			!
@@ -22,9 +22,9 @@ file1 = config_base
 
 
 file2 = config_data
-	this will be the database file from which data will be fed into the config files. The only required filed is 'host' as it is used by pandas to set up the index and columns. The actual index for "host" can be any string. keep in mind this files must be in csv format. The column names also must match the "<config_variable>" int the "connfig_base" file. you can add/remove fields as need and the scripts will pick up the fileds w/o any changes to the script.
+	this will be the database file from which data will be fed into the config files. The only required field is 'host' as it is used by pandas to set up the index and columns. The actual index for "host" can be any string. keep in mind this files must be in csv format. The column names also must match the "<config_variable>" in the "config_base" file. you can add/remove fields as need and the scripts will pick up the fields w/o any changes to the script.
 	#####################################################################################
-		example "config_data"
+		example "./config_data"
 			host,hostname,loopback_int,loopback_ip,loopback_mask,wan1_int,wan1_ip,wan1_mask
 			R1,Nov_R1,loopback 0,1.1.1.1,255.255.255.255,Gig0/0,192.168.1.0,255.255.255.255
 			R2,Nov_R2,loopback 0,1.1.1.2,255.255.255.255,Gig0/0,192.168.1.2,255.255.255.255
@@ -52,5 +52,7 @@ file2 = config_data
 			R24,Nov_R24,loopback 0,1.1.1.24,255.255.255.255,Gig0/0,192.168.1.46,255.255.255.255
 	#####################################################################################
 
-file3 = not a file but a dir called "config_out"
-	this is where the ouput config files will be created. make sure you create this dir
+file3 = not a file but a dir called "./config_out/"
+	this is where the ouput config files will be created. 
+
+create the files "config.data" "config.base" and create the dir "./config_ouput/" ans you are ready to go
