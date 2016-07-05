@@ -5,7 +5,6 @@ config t
 !
 hostname <device_hostname>
 !
-no interface loopback 2
 interface <loopback1_int>
  ip add <loopback1_ip> <loopback1_mask>
 !
