@@ -1,0 +1,6 @@
+python
+	sudo apt-get install python
+pandas
+	sudo apt-get install python-pandas
+pexpect
+	sudo apt-get install pexpect

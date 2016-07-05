@@ -55,4 +55,5 @@ file2 = config_data
 file3 = not a file but a dir called "./config_out/"
 	this is where the ouput config files will be created. 
 
-create the files "config.data" "config.base" and create the dir "./config_ouput/" ans you are ready to go
+create the files "config.data" "config.base" and create the dir "./config_ouput/" and you are ready to go
+run the "config_genx.py" file using "python config_genx.py

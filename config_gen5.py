@@ -29,7 +29,6 @@ def import_config_data():
 			hostconfig_file = fileinput.input(files=("config_output/{0}".format(host)),inplace=1)
 			for line in hostconfig_file:
 				replace = line.replace("<{0}>".format(replace_item), "{0}".format(replace_item_with))
-				# use the "," at the end from preventing extra lines
 				print replace,
 				#time.sleep(.50)
 			hostconfig_file.close()
