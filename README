@@ -57,3 +57,6 @@ file3 = not a file but a dir called "./config_out/"
 
 create the files "config.data" "config.base" and create the dir "./config_ouput/" and you are ready to go
 run the "config_genx.py" file using "python config_genx.py
+
+## added an option to concatenate all files in config_output dir to a single file. used it to create a xml file to import into putty_cm/multi putty database
+run 'conc_file_dyn.py' to concatenate all file in config_ouput/ to 'conc_output'
