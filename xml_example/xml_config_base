@@ -1,0 +1,25 @@
+		<connection type="PuTTY" name="cml_JS_<hostname>">
+			<name><hostname></name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet <targetip></command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>

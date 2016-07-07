@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root type="database" name="cml_session" expanded="True">
+		<connection type="PuTTY" name="cml_JS_adcw-n1-6504e-d-wan1">
+			<name>adcw-n1-6504e-d-wan1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.29</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_al-usfw-adcw-dmvpn2">
+			<name>al-usfw-adcw-dmvpn2</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.27</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_al-usfw-ndcfw-dmvpn1">
+			<name>al-usfw-ndcfw-dmvpn1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.28</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_internetcore">
+			<name>internetcore</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.20</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-chbs-wan-rt05">
+			<name>nvs-chbs-wan-rt05</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.18</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-chbs-wan-rt06">
+			<name>nvs-chbs-wan-rt06</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.19</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-chst-d02-10-o12-c01">
+			<name>nvs-chst-d02-10-o12-c01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.17</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-chst-d02-o12-c01">
+			<name>nvs-chst-d02-o12-c01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.17</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-chst-d04-b1-s25-c02">
+			<name>nvs-chst-d04-b1-s25-c02</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.16</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-chst-d04-s25-c02">
+			<name>nvs-chst-d04-s25-c02</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.16</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-kena-core-sw01">
+			<name>nvs-kena-core-sw01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.55</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-kena-wan-gwn-rt01">
+			<name>nvs-kena-wan-gwn-rt01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.53</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-kena-wan-ise-rt01">
+			<name>nvs-kena-wan-ise-rt01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.54</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-ngvi-core-sw01">
+			<name>nvs-ngvi-core-sw01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.58</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-ngvi-wan-gwan-rtr01">
+			<name>nvs-ngvi-wan-gwan-rtr01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.56</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-ngvi-wan-ise-rtr01">
+			<name>nvs-ngvi-wan-ise-rtr01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.57</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-prct-wan-gwn-rt1">
+			<name>nvs-prct-wan-gwn-rt1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.59</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-prct-wan-ise-rt1">
+			<name>nvs-prct-wan-ise-rt1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.60</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-uselk-wan-gwn-r1">
+			<name>nvs-uselk-wan-gwn-r1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.41</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-uselk-wan-gwn-r2">
+			<name>nvs-uselk-wan-gwn-r2</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.42</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-uselk-wan-gwn-r3">
+			<name>nvs-uselk-wan-gwn-r3</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.43</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-usfw-wan-gwn-rt01">
+			<name>nvs-usfw-wan-gwn-rt01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.21</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-usfw-wan-gwn-rt02">
+			<name>nvs-usfw-wan-gwn-rt02</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.22</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-usfw-wan-gwn-rt03">
+			<name>nvs-usfw-wan-gwn-rt03</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.25</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-usfw-wan-ise-rt1">
+			<name>nvs-usfw-wan-ise-rt1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.23</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-usfw-wan-ise-rt2">
+			<name>nvs-usfw-wan-ise-rt2</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.24</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-usht-4507re-d-1">
+			<name>nvs-usht-4507re-d-1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.46</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-usht-wan-gwn-rt1">
+			<name>nvs-usht-wan-gwn-rt1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.44</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-usht-wan-gwn-rt2">
+			<name>nvs-usht-wan-gwn-rt2</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.45</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-uslz-4507re-d-1">
+			<name>nvs-uslz-4507re-d-1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.49</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-uslz-wan-gwn-rt1">
+			<name>nvs-uslz-wan-gwn-rt1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.47</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-uslz-wan-gwn-rt2">
+			<name>nvs-uslz-wan-gwn-rt2</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.50</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-uslz-wan-gwn-rt3">
+			<name>nvs-uslz-wan-gwn-rt3</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.48</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_nvs-vnhc-wan-ise-rt1">
+			<name>nvs-vnhc-wan-ise-rt1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.51</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_prcat-3560-cr1">
+			<name>prcat-3560-cr1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.61</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providera-p1">
+			<name>providera-p1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.70</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providera-p2">
+			<name>providera-p2</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.71</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providera-p3">
+			<name>providera-p3</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.72</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providera-p4">
+			<name>providera-p4</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.73</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providera-pe1">
+			<name>providera-pe1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.74</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providera-pe2">
+			<name>providera-pe2</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.75</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providera-pe3">
+			<name>providera-pe3</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.76</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providera-pe4">
+			<name>providera-pe4</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.77</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providerb-p1">
+			<name>providerb-p1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.78</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providerb-p2">
+			<name>providerb-p2</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.79</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providerb-p3">
+			<name>providerb-p3</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.80</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providerb-p4">
+			<name>providerb-p4</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.81</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providerb-pe1">
+			<name>providerb-pe1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.82</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providerb-pe2">
+			<name>providerb-pe2</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.83</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providerb-pe3">
+			<name>providerb-pe3</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.84</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_providerb-pe4">
+			<name>providerb-pe4</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.85</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_rtr02-n2-6504e-d-wan1">
+			<name>rtr02-n2-6504e-d-wan1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.30</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_sciwan">
+			<name>sciwan</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.33</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_uselk-4507re-d-1">
+			<name>uselk-4507re-d-1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.40</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_usfw-adcw-6509e-q-c1">
+			<name>usfw-adcw-6509e-q-c1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.31</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_usfw-rtr02-6509-q-c1">
+			<name>usfw-rtr02-6509-q-c1</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.32</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+		<connection type="PuTTY" name="cml_JS_vnhc-core-sw01">
+			<name>vnhc-core-sw01</name>
+			<protocol>SSH</protocol>
+			<host>10.1.146.36</host>
+			<port>22</port>
+			<session>Default Settings</session>
+			<description>
+			</description>
+			<login>hershp</login>
+			<password>Password1234</password>
+			<connectiontimeout>1500</connectiontimeout>
+			<logintimeout>1000</logintimeout>
+			<passwordtimeout>1000</passwordtimeout>
+			<commandtimeout>1000</commandtimeout>
+			<command1>telnet 1.1.1.52</command1>
+			<command2 />
+			<command3 />
+			<command4 />
+			<command5 />
+			<postcommands>True</postcommands>
+			<ftpusername />
+			<ftppassword />
+			<sftpusername />
+			<sftppassword />
+	</connection>
+</root>
