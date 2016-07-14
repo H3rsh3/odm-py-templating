@@ -60,5 +60,5 @@ this script contains two functions
 		this function will generate the config using the file. you can pass on astring of file name in a variable 
 		see main.py for example
 	Function 2  Import_conf.concat_ic("output_file")
-		this function concatenate all file into the output files defined. This will concatenate all files in config_output/
+		this function concatenate all file into the output files defined. This will concatenate all files in <base_file>_output/
 		you can pass on astring of file name in a variable, see main.py for example
