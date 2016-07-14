@@ -1,5 +1,3 @@
-# config_gen4 script uses pandas to create a datafrom of devics and config items to replace and create config files. This can be utilized for any form of teplate not just cisco/network
-# once the script is in place, there should not be anything changed in it
 # This scrit requires 2 files and one dir in order for it to work
 file1 = config_base
 	this will be a base config file. this will include all variables in format "<config_variable>", the variable must be surrounded by "< >".>string inside <> must match the column in the "config_data" file. there can not be duplicate fields
@@ -55,8 +53,12 @@ file2 = config_data
 file3 = not a file but a dir called "./config_out/"
 	this is where the ouput config files will be created. 
 
-create the files "config.data" "config.base" and create the dir "./config_ouput/" and you are ready to go
-run the "config_genx.py" file using "python config_genx.py
 
-## added an option to concatenate all files in config_output dir to a single file. used it to create a xml file to import into putty_cm/multi putty database
-run 'conc_file_dyn.py' to concatenate all file in config_ouput/ to 'conc_output'
+Check the main.py file for example on how to run the script
+this script contains two functions 
+	Function 1 is Import_conf.Generate("config_base", "config_data")
+		this function will generate the config using the file. you can pass on astring of file name in a variable 
+		see main.py for example
+	Function 2  Import_conf.concat_ic("output_file")
+		this function concatenate all file into the output files defined. This will concatenate all files in config_output/
+		you can pass on astring of file name in a variable, see main.py for example
