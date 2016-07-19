@@ -65,3 +65,29 @@ class Import_conf():
 							#print line,
 						source_file.close()
 		base_file.close()
+
+	def concat_h_ic(self,ci_data,i_index):
+		baseseries = pd.read_csv("{0}".format(ci_data), index_col='host')
+		baseseries_idx = baseseries.index
+		basedf = pd.DataFrame(index=baseseries_idx)
+		#print basedf
+		for df in i_index:
+			adt_filelist = subprocess.check_output(['ls -l {0}_output | awk -F\' \' \'{{ print $9 }}\' | sort -n '.format(df)], shell=True)
+			adt_filelist_s = adt_filelist.split()
+			adt_series = pd.Index(adt_filelist_s)
+			adt_df = pd.DataFrame(index=adt_series, columns=["{0}".format(df)])
+			adt_df[[0]]= "p"
+			basedf = pd.concat([basedf, adt_df], axis=1)
+		#print basedf
+		mkdir_ov = subprocess.Popen("mkdir {0}_voutput".format(ci_data), shell=True)
+		mkdir_ovw = mkdir_ov.communicate()[0]
+		for host in basedf.index:
+			open("{0}_voutput/{1}".format(ci_data,host), 'w').close()
+			with open("{0}_voutput/{1}".format(ci_data,host), "a") as dest_file: 					
+				presentfiles = basedf.loc["{0}".format(host)].dropna()
+				presentfiles_index = presentfiles.index
+				print "==================combining files {0}".format(host)
+				for p_files in presentfiles_index:
+					with open("{0}_output/{1}".format(p_files,host), "r") as src_file:
+						for line in src_file:
+							dest_file.write(line)
