@@ -1,0 +1,28 @@
+!
+show run
+!
+config t
+!
+hostname DEVICE-R11
+!
+interface loopback 97
+ ip add 1.1.1.11 255.255.255.255
+!
+interface loopback 98
+ ip add 192.168.1.20 255.255.255.255
+!
+end
+!
+copy run start
+
+
+!
+!
+router ospf 10
+ network 1.1.1.11 0.0.0.0 area 0
+ network 192.168.1.20 0.0.0.0 area 0
+ ip osfp router-id 1.1.1.11
+ passive interface-default
+ no passive interface loopback 97
+ no passive interface loopback 98
+!

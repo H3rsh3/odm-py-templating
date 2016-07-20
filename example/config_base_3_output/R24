@@ -1,0 +1,5 @@
+!
+router bgp 100
+ ip bgp router-id 1.1.1.24
+ neighbor 3.3.3.24 remote-as 1004
+!

@@ -1,0 +1,5 @@
+host,hostname,loopback1_int,loopback1_ip,loopback1_mask,loopback2_int,loopback2_ip,loopback2_mask,device_hostname,bgp_peer_r,r_as
+R1,Nov_R1,loopback 97,1.1.1.1,255.255.255.255,loopback 98,192.168.1.0,255.255.255.255,DEVICE-R1,3.3.3.1,1001
+R2,Nov_R2,loopback 97,1.1.1.2,255.255.255.255,loopback 98,192.168.1.2,255.255.255.255,DEVICE-R2,3.3.3.2,1002
+R23,Nov_R23,loopback 97,1.1.1.23,255.255.255.255,loopback 98,192.168.1.44,255.255.255.255,DEVICE-R23,3.3.3.23,1003
+R24,Nov_R24,loopback 97,1.1.1.24,255.255.255.255,loopback 98,192.168.1.46,255.255.255.255,DEVICE-R24,3.3.3.24,1004

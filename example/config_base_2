@@ -1,0 +1,9 @@
+!
+router ospf 10
+ network <loopback1_ip> 0.0.0.0 area 0
+ network <loopback2_ip> 0.0.0.0 area 0
+ ip osfp router-id <loopback1_ip>
+ passive interface-default
+ no passive interface <loopback1_int>
+ no passive interface <loopback2_int>
+!

@@ -1,0 +1,5 @@
+!
+router bgp 100
+ ip bgp router-id <loopback1_ip>
+ neighbor <bgp_peer_r> remote-as <r_as>
+!

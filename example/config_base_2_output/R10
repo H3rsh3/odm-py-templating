@@ -1,0 +1,9 @@
+!
+router ospf 10
+ network 1.1.1.10 0.0.0.0 area 0
+ network 192.168.1.18 0.0.0.0 area 0
+ ip osfp router-id 1.1.1.10
+ passive interface-default
+ no passive interface loopback 97
+ no passive interface loopback 98
+!
